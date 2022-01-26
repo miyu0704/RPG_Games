@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{181897dc-9893-4726-a642-68f3ab9f6c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{730c06c3-5e95-464c-85c8-2b3c13ae977d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{a527a2bf-f073-49ee-9eb9-e1180ea64ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{f7263152-973c-4ba6-abcc-22a6b72043c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{411a8abd-2e1c-4ce9-b5f3-1f6e81674dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Header">
+      <UniqueIdentifier>{9f572b15-fd87-4f70-8dd7-075425cc1158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{f822353f-dda3-4828-b19f-59b8b39aca83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Source">
+      <UniqueIdentifier>{f8c54074-2278-4df6-830a-e9b9132728f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Header">
+      <UniqueIdentifier>{1cf5f9e0-3800-484b-993d-224ab263813f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Header">
+      <UniqueIdentifier>{708188e5-b607-46d7-9257-a986fabcbac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Source">
+      <UniqueIdentifier>{a6ba4f31-c5da-4e30-9228-e1bf452f9936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Header">
+      <UniqueIdentifier>{eaec0d01-2d2d-4dc8-ac6d-5777e5d8ea4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Source">
+      <UniqueIdentifier>{9c77b000-873b-4db5-8186-67c061d63b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\Header">
+      <UniqueIdentifier>{6cc941aa-9b53-4825-9b78-c9e236941e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Header">
+      <UniqueIdentifier>{24f3ba6a-d57c-467a-97dc-b062d0aa1967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Source">
+      <UniqueIdentifier>{92f1f953-9f7c-450e-b4d7-f71fc4022ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{bc9fb4c4-37be-4bc3-bfd5-6eea3825e0d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component\Header">
+      <UniqueIdentifier>{e653128b-0a1b-4f0a-86c4-7b8224920a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Header\Title_OBJ">
+      <UniqueIdentifier>{96656687-014b-4475-9777-ef10ab670285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Header\System_OBJ">
+      <UniqueIdentifier>{54a21913-e01e-4e02-89f6-6ecab5b1e686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Header\Play_OBJ">
+      <UniqueIdentifier>{8a568d87-a2cd-43e7-817c-3d642165457a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{9f6e2eb6-dcd5-4cc3-857a-eb756efd5f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Header\Play_OBJ\CharacterObj">
+      <UniqueIdentifier>{7db5e14e-1219-48af-866f-1e165dfe1681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Header\Play_OBJ\Menu_OBJ">
+      <UniqueIdentifier>{c9360c71-771f-4e57-b3a2-74778ebbf6f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Source\Play_OBJ">
+      <UniqueIdentifier>{de3122d0-25cf-4322-a40a-ca4c413be86f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Source\Play_OBJ\Character_OBJ">
+      <UniqueIdentifier>{01f80613-772d-47d3-8480-5e41d1a9f7f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Source\Menu_OBJ">
+      <UniqueIdentifier>{a27ef044-2589-435c-b1e4-1e000f6f1f3c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Window.cpp">
+      <Filter>System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Canvas.cpp">
+      <Filter>System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Manager\GameManager.cpp">
+      <Filter>Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\TitleScene.cpp">
+      <Filter>Scene\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Manager\SceneManager.cpp">
+      <Filter>Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\Layer.cpp">
+      <Filter>System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\dSound.cpp">
+      <Filter>System\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Manager\InputManager.cpp">
+      <Filter>Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Manager\FrameManager.cpp">
+      <Filter>Manager\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Object\Player.cpp">
+      <Filter>Object\Source\Play_OBJ\Character_OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\PlayScene.cpp">
+      <Filter>Scene\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Object\Maps.cpp">
+      <Filter>Object\Source\Play_OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Object\Enemy.cpp">
+      <Filter>Object\Source\Play_OBJ\Character_OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Object\Enemy_1.cpp">
+      <Filter>Object\Source\Play_OBJ\Character_OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Object\PictureBook.cpp">
+      <Filter>Object\Source\Menu_OBJ</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Other\Singleton.h">
+      <Filter>Other\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Other\NonCopyable.h">
+      <Filter>Other\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Window.h">
+      <Filter>System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Error.h">
+      <Filter>System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Canvas.h">
+      <Filter>System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Manager\GameManager.h">
+      <Filter>Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Component\Render.h">
+      <Filter>Component\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Component\SpriteRender.h">
+      <Filter>Component\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Other\Vector2.h">
+      <Filter>Other\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\Scene.h">
+      <Filter>Scene\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\TitleScene.h">
+      <Filter>Scene\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Manager\SceneManager.h">
+      <Filter>Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\Layer.h">
+      <Filter>System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Other\Decl.h">
+      <Filter>Other\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\dSound.h">
+      <Filter>System\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Manager\InputManager.h">
+      <Filter>Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Other\EnumIterator.h">
+      <Filter>Other\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Manager\FrameManager.h">
+      <Filter>Manager\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Component\TileRender.h">
+      <Filter>Component\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Object\ShareObject.h">
+      <Filter>Object\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Object\Title_Back.h">
+      <Filter>Object\Header\Title_OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Object\TitleUI_Start.h">
+      <Filter>Object\Header\Title_OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\PlayScene.h">
+      <Filter>Scene\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Component\jsonLoader.h">
+      <Filter>Component\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Component\TextRender.h">
+      <Filter>Component\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Object\TitleUI_Continue.h">
+      <Filter>Object\Header\Title_OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Object\TitleUI_Exit.h">
+      <Filter>Object\Header\Title_OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Base\Component.h">
+      <Filter>Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Base\GameObject.h">
+      <Filter>Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Base\Button.h">
+      <Filter>Base\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Object\FadeObject.h">
+      <Filter>Object\Header\System_OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Object\Select_icon.h">
+      <Filter>Object\Header\Title_OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Object\Maps.h">
+      <Filter>Object\Header\Play_OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Component\Collider.h">
+      <Filter>Component\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Component\TileCollider.h">
+      <Filter>Component\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Object\Enemy.h">
+      <Filter>Object\Header\Play_OBJ\CharacterObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Object\Player.h">
+      <Filter>Object\Header\Play_OBJ\CharacterObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Object\Enemy_1.h">
+      <Filter>Object\Header\Play_OBJ\CharacterObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Object\PictureBook.h">
+      <Filter>Object\Header\Play_OBJ\Menu_OBJ</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Maps.json">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+</Project>

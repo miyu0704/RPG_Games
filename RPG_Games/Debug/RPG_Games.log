@@ -1,0 +1,14 @@
+﻿  Player.cpp
+C:\Users\miyu\Desktop\school\#IntheWorks\RPG_Games\Src\Other\Vector2.h(36,28): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\miyu\Desktop\school\#IntheWorks\RPG_Games\Src\Other\Vector2.h(36,15): warning C4244: 'return': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\miyu\Desktop\school\#IntheWorks\RPG_Games\Src\Other\Vector2.h(90,28): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\miyu\Desktop\school\#IntheWorks\RPG_Games\Src\Other\Vector2.h(111,41): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\miyu\Desktop\school\#IntheWorks\RPG_Games\Src\Other\Vector2.h(111,38): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\miyu\Desktop\school\#IntheWorks\RPG_Games\Src\Component\TileRender.h(52,167): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\miyu\Desktop\school\#IntheWorks\RPG_Games\Src\Component\TileRender.h(52,133): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\miyu\Desktop\school\#IntheWorks\RPG_Games\Src\Component\TileRender.h(58,26): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\miyu\Desktop\school\#IntheWorks\RPG_Games\Src\Component\TileRender.h(60,155): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\miyu\Desktop\school\#IntheWorks\RPG_Games\Src\Component\TileRender.h(60,121): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\miyu\Desktop\school\#IntheWorks\RPG_Games\Src\Object\Player.cpp(58,77): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\miyu\Desktop\school\#IntheWorks\RPG_Games\Src\Object\Player.cpp(64,77): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+  RPG_Games.vcxproj -> C:\Users\miyu\Desktop\school\#IntheWorks\RPG_Games\Debug\RPG_Games.exe
